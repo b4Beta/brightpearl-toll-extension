@@ -5,19 +5,16 @@
    },
    "content_scripts": [ {
       "js": [ "src/inject/inject.js", "src/inject/jquery-1.11.1.min.js" ],
-      "matches": [ "https://euw1.brightpearl.com/*", "https://online.toll.com.au/*" ]
+      "matches": [ "https://use1.brightpearl.com/*", "https://online.toll.com.au/*" ]
    } ],
-   "default_locale": "en",
    "icons": {
       "128": "icons/icon128.png",
       "16": "icons/icon16.png",
       "19": "icons/icon48.png",
       "48": "icons/icon48.png"
    },
-   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwfvPYtd6lI1qTIikais3Cf+3tjmv1F8F0rZFrazrsDiGTauFVMO1B7kzmiEiaRcorZKXB2wsknwUoDH/DOu3OiLh7ph3LcPuj2UFUSvqumFisZSC1KgYE5RjLxvwp7CtqfRS7G18X9t9wsVRUIATJrbsfk4GGqTZTrM374XAMm7WhJSqA6u4qU7NIfIznqY+9TrVqJg2rnsU1oxhpCG1MVdqoGtV4pQ7uK1wujzYKTqgBevG6Rhq3TD1XjOuQ/xn8XfskTu5uv9Ij4vEc1EAVzEHd7++nTRoVe5py2idbOCpU6UV5hBXfcAeYbQCKBMYfGI0nmCSomdmxD408MGhYwIDAQAB",
    "manifest_version": 2,
    "name": "Patrick's Fixes",
    "permissions": [ "contextMenus" ],
-   "update_url": "https://clients2.google.com/service/update2/crx",
-   "version": "0.0.1"
+   "version": "0.0.2"
 }
