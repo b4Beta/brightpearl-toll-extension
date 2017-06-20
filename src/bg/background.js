@@ -1,5 +1,5 @@
 
-var brightpearlOrderUrl = ["https://euw1.brightpearl.com/*/patt-op.php?scode=invoice*"];
+var brightpearlOrderUrl = ["https://use1.brightpearl.com/patt-op.php?scode=invoice*"];
 chrome.contextMenus.create({
 	"title" : "Copy From Brightpearl Order",
 	"type" : "normal",
@@ -15,7 +15,7 @@ chrome.contextMenus.create({
 	"onclick":pasteToll
 });
         
-var brightpearlExistingCustomerUrl = ["https://euw1.brightpearl.com/*/patt-op.php?scode=contact&cID=*"];
+var brightpearlExistingCustomerUrl = ["https://use1.brightpearl.com/patt-op.php?scode=contact&cID=*"];
 chrome.contextMenus.create({
 	"title" : "Copy From Brightpearl Customer",
 	"type" : "normal",
@@ -23,7 +23,7 @@ chrome.contextMenus.create({
 	"onclick": copyBrightpearlCustomer
 });
 
-var brightpearlNewCustomerUrl = ["https://euw1.brightpearl.com/*/patt-op.php?scode=contact&type=customer"];
+var brightpearlNewCustomerUrl = ["https://use1.brightpearl.com/patt-op.php?scode=contact&type=customer"];
 chrome.contextMenus.create({
 	"title" : "Paste Brightpearl Customer",
 	"type" : "normal",
@@ -31,7 +31,7 @@ chrome.contextMenus.create({
 	"onclick": pasteBrightpearlCustomer
 });
 
-var brightpearlCustomerUrl = ["https://euw1.brightpearl.com/*/patt-op.php?scode=contact*"];
+var brightpearlCustomerUrl = ["https://use1.brightpearl.com/patt-op.php?scode=contact*"];
 chrome.contextMenus.create({
 	"title" : "Search Address 1 in Google Maps",
 	"type" : "normal",
